@@ -1,12 +1,12 @@
 # Cryptocurrency Time Series Analysis
 
-## Project Overview
-This project analyzes cryptocurrency trends using time series forecasting techniques.
+## Overview
+This project performs cryptocurrency trend analysis and forecasting using Time Series Analysis techniques.
 
 ## Features
-- Bitcoin Data Collection
-- Data Visualization
-- Moving Average Analysis
+- Cryptocurrency data collection
+- Data preprocessing
+- Exploratory Data Analysis
 - ARIMA Forecasting
 - Prophet Forecasting
 - Interactive Streamlit Dashboard
@@ -14,14 +14,19 @@ This project analyzes cryptocurrency trends using time series forecasting techni
 ## Technologies Used
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Plotly
 - Streamlit
-- Prophet
 - ARIMA
+- Prophet
 
 ## How to Run
 
+Install dependencies:
+
 pip install -r requirements.txt
 
-streamlit run app.py
+Run dashboard:
+
+python -m streamlit run app.py
